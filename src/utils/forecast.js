@@ -22,6 +22,7 @@ const forecast = (latitude, longitude, callback) => {
 					" degrees out. There is a " +
 					body.currently.precipProbability +
 					" chance of rain.",
+				"Now It is " + body.minutely.summary,
 			);
 		}
 	});
