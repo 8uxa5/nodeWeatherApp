@@ -1,5 +1,3 @@
-console.log("Hello from ClientSIDE JavaScript FILE in public dir!!!");
-
 const weatherForm = document.querySelector("form");
 const searchTerm = document.querySelector("input");
 const messageOne = document.querySelector("#message-1");
